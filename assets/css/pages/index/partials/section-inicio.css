@@ -1,0 +1,340 @@
+section.pagina-inicial {
+    background-image: url('/files/images/section-home/background-home.png');
+    width: 100%;
+}
+
+.container-inicio {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 19.375rem;
+    height: 5.625rem;
+    margin-bottom: 1.88rem;
+    margin-top: 11.25rem;
+}
+
+.textos-inicio h1 {
+    max-width: 43.625rem;
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 1.88rem;
+}
+
+.textos-inicio h2 {
+    max-width: 41.5rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-bottom: 3.12rem;
+    color: var(--corTexto);
+}
+
+.btn-inicio {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.125rem 4.875rem;
+    font-size: 1.25rem;
+    font-weight: 400;
+    background: var(--corBotao);
+    color: var(--branco);
+    border-radius: 0.5625rem;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-inicio:hover {
+    transition: all 0.2s ease;
+    background:linear-gradient(90deg, #DA1A20 0%, #740E11 100%);
+    transform: scale(1.01);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+
+}
+
+.foto-perfil {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin: 6.19rem 0.62rem 0 0;
+}
+.foto-perfil img {             
+    width: 35.8125rem;
+    height: 42.25rem;
+}
+
+.texto-recepcao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 90rem;
+    height: 6.4375rem;
+    border-top: 2px solid var(--corPrincipal);
+    border-bottom: 2px solid var(--corPrincipal);
+    box-shadow: 5px 11px 14px 0px rgba(0, 0, 0, 0.25);
+}
+
+.display-recepcao {
+    display: flex;
+}
+
+.texto-recepcao p { 
+    font-size: 1rem;
+    font-weight: 400;  
+}
+
+.texto-recepcao .home {
+    max-width: 12.1875rem;
+    margin-right: 6.25rem;
+}
+
+.texto-recepcao .profissional {
+    max-width: 10.8125rem;
+    margin-right: 6.25rem;
+}
+
+.texto-recepcao .coracao {
+    max-width: 14.1875rem;
+}
+
+.texto-recepcao img {
+    margin-right: 0.94rem;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+    .container-inicio {
+        max-width: 1024px;
+    }
+    
+    .logo {
+        width: 13.4375rem;
+        height: 3.875rem;
+        margin-top: 5.63rem;
+        margin-bottom: 1.25rem;
+    }
+    
+    .textos-inicio h1 {
+        max-width: 32.75rem;
+        font-size: 2.25rem;
+    }
+    
+    .textos-inicio h2 {
+        max-width: 34.25rem;
+        font-size: 1.125rem;
+        margin-bottom: 2.12rem;
+    }
+
+    .foto-perfil {
+        margin: 5rem 0.62rem 0 0;
+    }
+
+    .foto-perfil img {             
+        width: 22.875rem;
+        height: 27rem;
+    }
+    
+    .texto-recepcao {
+        width: 63.9375rem;
+        height: 4.5625rem;
+    }
+    
+    .display-recepcao {
+        display: flex;
+    }
+
+    .texto-recepcao p { 
+        font-size: 1rem;
+        font-weight: 400;
+    }
+    
+    .texto-recepcao .home {
+        max-width: 12.1875rem;
+        margin-right: 4.37rem;
+    }
+    
+    .texto-recepcao .profissional {
+        max-width: 10.85rem;
+        margin-right: 4.37rem;
+    }
+    
+    .texto-recepcao .coracao {
+        max-width: 14.1875rem;
+    
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    .container-inicio {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 768px;
+    }
+    
+    .logo {
+        width: 16.25rem;
+        height: 4.6875rem;
+        margin: 5rem 0 1.25rem 0;
+    }
+    
+    .textos-inicio {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .textos-inicio h1 {
+        max-width: 33rem;
+        font-size: 2.25rem;
+        margin-bottom: 1.25rem;
+    }
+    
+    .textos-inicio h2 {
+        max-width: 27.6875rem;
+        font-size: 1rem;
+        margin-bottom: 1.25rem;
+    }
+
+    .foto-perfil {
+        margin-top: 1.64rem;
+    }
+    .foto-perfil img {             
+        width: 28rem;
+        height: 33.0625rem;
+    }
+
+    .display-recepcao {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        
+    }
+
+    .texto-recepcao {
+        display: flex;
+        justify-content: space-between;
+        width: 45rem;
+        height: 6rem;
+    }
+    
+    .texto-recepcao p { 
+        font-size: 1rem;
+        font-weight: 300;
+        margin-left: 0;   
+    }
+    
+    .texto-recepcao .home {
+        max-width: 12.09625rem;
+        margin-right: 0;
+        margin-left: 0.94rem;
+    }
+    
+    .texto-recepcao .profissional {
+        max-width: 10.75rem;
+        margin-right: 0;
+    }
+    
+    .texto-recepcao .coracao {
+        max-width: 14rem;
+        margin-right: 0.94rem;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .container-inicio {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 767px;
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    .logo {
+        width: 17.1875rem;
+        height: 5rem;
+        margin: 5.62rem 0 1.88rem 0;
+    }
+    
+    .textos-inicio {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .textos-inicio h1 {
+        max-width: 21.375;
+        font-size: 1.5rem;
+        margin-bottom: 1.25rem;
+    }
+    
+    .textos-inicio h2 {
+        max-width: 21.4375rem;
+        font-size: 1rem;
+        margin-bottom: 1.88rem;
+    }
+    
+    .btn-inicio {
+        padding: 1.41rem 2.5rem;
+    }
+
+    .foto-perfil {
+        margin-top: 2.5rem;
+    }
+    .foto-perfil img {             
+        width: 19.25rem;
+        height: 22.6875rem;
+    }
+
+    .display-recepcao {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+    }
+
+    .display-recepcao img {
+        width: 1.56rem;
+    }
+
+    .texto-recepcao {
+        display: flex;
+        justify-content: space-between;
+        width: 21.4375rem;
+        height: 5.75rem;
+    }
+    
+    .texto-recepcao p { 
+        font-size: 0.625rem;
+        font-weight: 300;
+        margin-left: 0;   
+    }
+    
+    .texto-recepcao .home {
+        max-width: 13.7rem;
+        margin-right: 1rem;
+        margin-left: 0.38rem;
+    }
+    
+    .texto-recepcao .profissional {
+        max-width: 10rem;
+        margin-right: 1rem;
+    }
+    
+    .texto-recepcao .coracao {
+        max-width: 10.7rem;
+        margin-right: 0.38rem;
+    }
+}

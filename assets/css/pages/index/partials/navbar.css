@@ -1,0 +1,160 @@
+.navbar {
+    height: 5rem;
+    position: fixed;
+    background-color: var(--corPrincipal);
+    width: 100%;
+    z-index: 1000;
+}
+
+.container-nav {
+    display: flex;
+    max-width: 1440px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.menu-alternar {
+    font-size: 28px;
+    cursor: pointer;
+    display: none;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 3.75rem;
+}
+
+.menu-link {
+    text-decoration: none;
+    color: var(--branco);
+    font-size: 1.125rem;
+    font-weight: 300;
+}
+
+.menu-link::after {
+    content: '';
+    height: 0.188rem;
+    width: 0;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    background-color: #dba839;
+    transition: width 0.5s ease;
+}
+
+.menu-link:hover::after {
+    width: 100%;
+}
+
+li:hover {
+    transform: translateY(-5px);
+}
+
+li {
+    transition: all 1s ease;
+}
+
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+    .navbar {
+        height: 3.75rem;
+    }
+    .container-nav {
+        max-width: 1024px
+    }
+
+    .menu {
+        gap: 2.5rem;
+    }
+
+    .menu-link {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .navbar {
+        height: 3.75rem;
+    }
+
+    .container-nav {
+        max-width: 768px;
+    }
+
+    .menu {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 3.75rem;
+        right: 0;
+        width: 50%;
+        background: var(--corBotao);
+        padding: 1rem 0;
+        gap: 2rem;
+        z-index: 999;
+        border: 1px solid #fff;
+        border-radius: 10px;
+    }
+    
+    .menu.active {
+        display: flex;
+    }
+
+    .menu-link {
+        font-weight: 600;
+    }
+    
+    .menu-alternar {
+        display: block;
+        position: absolute;
+        right: 1rem;
+        color: var(--branco);
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .navbar {
+        height: 3.75rem;
+    }
+    
+    .container-nav {
+        max-width: 767px;
+    }
+
+    .menu {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 3.75rem;
+        right: 0;
+        width: 50%;
+        background: var(--corBotao);
+        padding: 1rem 0;
+        gap: 1.5rem;
+        z-index: 999;
+        border: 1px solid #fff;
+        border-radius: 10px;
+    }
+    
+    .menu.active {
+        display: flex;
+    }
+
+    .menu-link {
+        font-weight: 400;
+    }
+    
+    .menu-alternar {
+        display: block;
+        position: absolute;
+        right: 1rem;
+        color: var(--branco);
+        font-size: 3rem;
+    }
+}

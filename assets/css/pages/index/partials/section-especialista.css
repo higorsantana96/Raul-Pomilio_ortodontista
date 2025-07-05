@@ -1,0 +1,178 @@
+section.especialista {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6.88rem 0 1.88rem 0;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.img-especialista img{
+    width: 38.5rem;
+    height: 48.125rem;
+}
+
+.container-especialista h2{
+    font-size: 2.25rem;
+    font-weight: 600;      
+    margin-left: 1.88rem;
+    max-width: 36.0625rem;
+}
+
+.linha-especialista {
+    width: 15.625rem;
+    height: 0.125rem;
+    background: var(--corBotao);
+    margin: 1.88rem 0 1.88rem 1.88rem;
+}
+
+.container-especialista p {
+    max-width: 43.5625rem;
+    margin: 0 0 1.88rem 1.88rem;
+    font-size: 1.125rem;
+    font-weight: 300;
+}
+
+.btn-especialista {
+    display: inline-flex;
+    font-size: 1.25rem;
+    font-weight: 400;
+    background: var(--corBotao);
+    padding: 1.125rem 4.375rem;
+    border-radius: 0.5625rem;
+    margin-left: 1.88rem;
+    color: var(--branco);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn-especialista:hover {
+    transition: all 0.2s ease;
+    background:linear-gradient(90deg, #DA1A20 0%, #740E11 100%);
+    transform: scale(1.01);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+    section.especialista {
+        padding: 5.62rem 0 4.31rem 0;
+        max-width: 1024px;
+    }
+    
+    .img-especialista img {
+        width: 28.5625rem;
+        height: 35.6875rem;
+    }
+    
+    .container-especialista h2{
+        max-width: 30.0625rem;
+        font-size: 1.875rem;      
+        margin-left: 1.25rem;
+    }
+    
+    .linha-especialista {
+        width: 15.625rem;
+        height: 0.125rem;
+        margin: 1.25rem 0 1.25rem 1.25rem;
+    }
+    
+    .container-especialista p {
+        max-width: 34.1875rem;
+        margin: 0 0 0.94rem 1.25rem;
+        font-size: 1rem;
+    }
+    
+    .btn-especialista {
+        margin-left: 1.25rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    section.especialista {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;   
+        padding: 5.62rem 0 1.88rem 0;
+        max-width: 768px;
+    }
+    
+    .img-especialista img {
+        max-width: 33.5625rem;
+        max-height: 40.625rem;
+    }
+    
+    .container-especialista h2{
+        margin-top: 1.88rem;
+        font-size: 1.875rem;
+        margin-left: 0;
+        max-width: 36.1875rem;
+        margin-bottom: 1.25rem;
+    }
+    
+    .linha-especialista {
+        max-width: 15.625rem;
+        max-height: 0.125rem;
+        margin: 0 auto;
+    }
+    
+    .container-especialista p {
+        max-width: 36.5rem;
+        margin: 1.88rem 0 1.25rem 0;
+        font-size: 1rem;
+        font-weight: 300;
+    }
+    
+    .btn-especialista { 
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    section.especialista {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;   
+        padding: 5.63rem 0 1.88rem 0;
+        max-width: 767px;
+        width: 90%;
+    }
+    
+    .img-especialista img {
+        max-width: 21.4375rem;
+        max-height: 26rem;
+    }
+    
+    .container-especialista h2{
+        margin-top: 1.25rem;
+        font-size: 1.5rem;
+        margin-left: 0;
+        max-width: 25.4375rem;
+        margin-bottom: 1.25rem;
+        
+    }
+    
+    .linha-especialista {
+        max-width: 15.625rem;
+        max-height: 0.125rem;
+        margin: 0 auto;
+        margin-bottom: 1.25rem;
+    }
+    
+    .container-especialista p {
+        max-width: 90%;
+        margin: 0 auto;
+        margin-bottom: 0.94rem;
+        font-size: 1rem;
+        font-weight: 300;
+    }
+    
+    .btn-especialista { 
+        margin-left: 0;
+        padding: 1.16rem 2.53rem;
+        margin-top: 0.92rem;
+    }
+}

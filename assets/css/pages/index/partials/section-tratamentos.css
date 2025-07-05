@@ -1,0 +1,398 @@
+section.tratamentos {
+    flex-direction: column;
+    padding: 6.88rem 0 1.88rem 0;
+    max-width: 1280px;
+    margin: 0 auto;
+    
+}
+
+.titulo-tratamentos h2 {
+    margin: 0 auto;
+    max-width: 34.1875rem;
+    text-align: center;
+    font-size: 2.25rem;
+    font-weight: 600;
+}
+
+.linha-tratamentos {
+    width: 15.625rem;
+    height: 0.125rem;
+    background: var(--corBotao);
+    margin: 0 auto;
+    margin-top: 1.88rem;
+    margin-bottom: 2.5rem;
+}
+
+.conteudo-tratamentos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+.tratamento-ortodontia:hover,
+.tratamento-clinica:hover,
+.tratamento-invisalign:hover,
+.tratamento-toxina:hover {
+    transition: all 0.5s ease;
+    background: linear-gradient(90deg, #DA1A20 0%, #740E11 100%);
+    transform: scale(1.01);
+    box-shadow: 7px 7px 7px 0px rgba(0,0,0,0.6);
+}
+
+.tratamento-ortodontia {
+    display: flex;
+    max-width: 37rem;
+    max-height: 10.625rem;
+    background: linear-gradient(90deg, #740E11 0%, #DA1A20 100%);
+    border-radius: 0rem 1.25rem;
+    box-shadow: 4px 4px 10px 0px rgba(0,0,0,0.5);
+}
+
+.textos-ortodontia h3 {
+    color: var(--branco);
+    padding: 1.25rem 0 1.25rem 1.25rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.textos-ortodontia p {
+    color: var(--branco);
+    padding: 0 1.44rem 0 1.25rem;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.tratamento-clinica {
+    display: flex;
+    max-width: 37rem;
+    max-height: 10.625rem;
+    background: linear-gradient(90deg, #740E11 0%, #DA1A20 100%);
+    border-radius: 0rem 1.25rem;
+    box-shadow: 4px 4px 10px 0px rgba(0,0,0,0.5);
+}
+
+.textos-clinica h3 {
+    color: var(--branco);
+    padding: 1.25rem 0 1.25rem 1.25rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.textos-clinica p {
+    color: var(--branco);
+    padding: 0 4.19rem 0 1.25rem;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.tratamento-invisalign {
+    display: flex;
+    max-width: 37rem;
+    max-height: 10.625rem;
+    background: linear-gradient(90deg, #740E11 0%, #DA1A20 100%);
+    border-radius: 0rem 1.25rem;
+    box-shadow: 4px 4px 10px 0px rgba(0,0,0,0.5);
+}
+
+.textos-invisalign h3 {
+    color: var(--branco);
+    padding: 1.25rem 0 1.25rem 1.25rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.textos-invisalign p {
+    color: var(--branco);
+    padding: 0 4.81rem 0 1.25rem;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.tratamento-toxina {
+    display: flex;
+    max-width: 37rem;
+    max-height: 10.625rem;
+    background: linear-gradient(90deg, #740E11 0%, #DA1A20 100%);
+    border-radius: 0rem 1.25rem;
+    box-shadow: 4px 4px 10px 0px rgba(0,0,0,0.5);
+}
+
+.textos-toxina h3 {
+    color: var(--branco);
+    padding: 1.25rem 0 1.25rem 1.25rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.textos-toxina p {
+    color: var(--branco);
+    padding: 0 3.12rem 0 1.25rem;
+    font-size: 1rem;
+    font-weight: 300;
+}
+.apenas-mobile {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+
+    section.tratamentos {
+        padding: 5.62rem 0 1.88rem 0;
+        max-width: 1024px;
+    }
+    
+    .titulo-tratamentos h2 {
+        max-width: 28.5rem;
+        font-size: 1.875rem;
+    }
+
+    .img-tratamentos img {
+        width: 9rem;
+        height: 9rem;
+    }
+    
+    .tratamento-ortodontia {
+        width: 31.375rem;
+        max-height: 9rem;
+    }
+    
+    .textos-ortodontia h3 {
+        padding: 0.94rem 0 0.62rem 1.25rem;
+        font-size: 1.25rem;
+    }
+    
+    .textos-ortodontia p {
+        padding: 0 1.06rem 0 1.25rem;
+    }
+    
+    .tratamento-clinica {
+        width: 31.375rem;
+        max-height: 9rem;
+    }
+    
+    .textos-clinica h3 {
+        padding: 0.93rem 0 0.62rem 1.25rem;
+        font-size: 1.25rem;
+    }
+    
+    .textos-clinica p {
+        
+        padding: 0 3.69rem 0 1.25rem;
+    }
+    
+    .tratamento-invisalign {
+        width: 31.375rem;
+        max-height: 9rem;
+    }
+    
+    .textos-invisalign h3 {
+        padding: 0.93rem 0 0.62rem 1.25rem;
+        font-size: 1.25rem;
+    }
+    
+    .textos-invisalign p {
+        padding: 0 1rem 0 1.25rem;
+    }
+    
+    .tratamento-toxina {
+        width: 31.375rem;
+        max-height: 9rem;
+    }
+    
+    .textos-toxina h3 {
+        padding: 0.93rem 0 0.62rem 1.25rem;
+        font-size: 1.25rem;
+    }
+    
+    .textos-toxina p {
+        padding: 0 2.56rem 0 1.25rem;
+    }
+
+    .apenas-mobile {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    section.tratamentos {
+        padding: 5.62rem 0 1.88rem 0;
+        max-width: 768px;
+    }
+    
+    .titulo-tratamentos h2 {
+        max-width: 28.5rem;
+        font-size: 1.875rem;
+    }
+    
+    .linha-tratamentos {
+        margin-top: 1.88rem;
+        margin-bottom: 1.88rem;
+    }
+    
+    .conteudo-tratamentos {
+        gap: 1.88rem;
+    }
+    
+    .textos-ortodontia h3 {
+        padding: 1.25rem 0 1.25rem 1.25rem;
+        font-size: 1.25rem;
+    }
+    
+    .textos-ortodontia p {
+        padding: 0 0 0 1.25rem;
+    }
+    
+    .textos-clinica h3 {
+        padding: 1.25rem 0 1.25rem 1.25rem;
+        font-size: 1.25rem;
+    }
+    
+    .textos-clinica p {
+        padding: 0 4.19rem 0 1.25rem;
+    }
+    
+    .textos-invisalign h3 {
+        padding: 1.25rem 0 1.25rem 1.25rem;
+        font-size: 1.25rem;
+    }
+    
+    .textos-invisalign p {
+        padding: 0 0 0 1.25rem;
+    }
+    
+    .textos-toxina h3 {
+        padding: 1.25rem 0 1.25rem 1.25rem;
+        font-size: 1.25rem;
+    }
+    
+    .textos-toxina p {
+        padding: 0 3.12rem 0 1.25rem;
+    }
+    .apenas-mobile {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    section.tratamentos {
+        flex-direction: column;
+        padding: 5.62rem 0 1.92rem 0;
+        max-width: 767px;
+        margin: 0 auto;
+        width: 90%;
+        text-align: center;
+    }
+
+    .apenas-desktop {
+        display: none;
+    }
+
+    .apenas-mobile {
+        display: block;
+    }
+    
+    .titulo-tratamentos h2 {
+        max-width: 21.44rem;
+        font-size: 1.5rem;
+    }
+    
+    .linha-tratamentos {
+        margin-top: 1.88rem;
+        margin-bottom: 1.88rem;
+    }
+
+    .conteudo-tratamentos img {
+        width: 18.0625rem;
+        height: 12.23938rem;
+    }
+    
+    .tratamento-ortodontia {
+        display: flex;
+        flex-direction: column;
+        max-width: 18.0625rem;
+        min-height: 23.13081rem;
+    }
+    
+    .textos-ortodontia h3 {
+        padding: 0.63rem 0 1.25rem 0;
+        font-size: 1.125rem;
+        font-weight: 600;
+    }
+    
+    .textos-ortodontia p {
+        padding: 0;
+        font-size: 1rem;
+        font-weight: 400;
+    }
+    
+    .tratamento-clinica {
+        display: flex;
+        flex-direction: column;
+        max-width: 18.0625rem;
+        min-height: 23.13081rem;
+    }
+
+    .textos-clinica h3 {
+        padding: 0.63rem 0 1.25rem 0;
+        font-size: 1.125rem;
+        font-weight: 600;
+    }
+    
+    .textos-clinica p {
+        padding: 0;
+        font-size: 1rem;
+        font-weight: 400;
+        max-width: 15.3125rem;
+        margin: 0 auto;
+    }
+    
+    .tratamento-invisalign {
+        display: flex;
+        flex-direction: column;
+        max-width: 18.0625rem;
+        min-height: 23.13081rem;
+    }
+    
+    .textos-invisalign h3 {
+        padding: 0.63rem 0 1.25rem 0;
+        font-size: 1.125rem;
+        font-weight: 600;
+    }
+    
+    .textos-invisalign p {
+        padding: 0;
+        font-size: 1rem;
+        font-weight: 400;
+        max-width: 14.875rem;
+        margin: 0 auto;
+    }
+    
+    .tratamento-toxina {
+        display: flex;
+        flex-direction: column;
+        max-width: 18.0625rem;
+        min-height: 23.13081rem;
+    }
+    
+    .textos-toxina h3 {
+        padding: 0.63rem 0 1.25rem 0;
+        font-size: 1.125rem;
+        font-weight: 600;
+    }
+    
+    .textos-toxina p {
+        padding: 0;
+        font-size: 1rem;
+        font-weight: 400;
+        max-width: 16.375rem;
+        margin: 0 auto;
+    }
+
+    .apenas-mobile {
+        width: 18.0625rem;
+        height: 12.23938rem;
+    }
+}

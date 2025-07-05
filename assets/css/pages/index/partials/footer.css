@@ -1,0 +1,252 @@
+section.footer {
+    background: #FFD2D2;
+}
+.container-footer {
+    display: flex;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.blocos-footer {
+    display: flex;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.logo-footer {
+    margin: 3.69rem 4.62rem 0 0;
+}
+
+.footer h3 {
+    margin-bottom: 1.25rem;
+}
+
+.footer p {
+    margin-bottom: 0.63rem;
+    color: #2d2d2d;
+}
+
+.footer a {
+    display: flex;
+    text-decoration: none;
+    color: #2d2d2d;
+    margin-bottom: 0.63rem;
+}
+
+.responsavel-tecnico {
+    margin-top: 4.81rem;
+}
+
+.linha-footer {
+    width: 0.125rem;
+    height: 12.5rem;
+    background: var(--corBotao);
+    margin: 3.75rem 1.88rem;
+}
+
+.contatos-telefone {
+    margin-top: 4.81rem;
+}
+
+.redes-sociais {
+    margin-top: 4.81rem;
+}
+
+.redes-sociais a {
+    display: inline;
+    margin-right: 1.25rem;
+}
+
+.copy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0.63rem;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+    .container-footer {
+        max-width: 1024px;
+    }
+
+    .blocos-footer {
+        max-width: 1024px;
+    }
+    .logo-footer {
+        margin: 3.75rem 3rem 0 0;
+    }
+
+    .logo-footer img {
+        max-width: 12rem;
+        max-height: 3.5rem;
+    }
+    
+    .footer h3 {
+        margin-bottom: 1.44rem;
+        font-size: 1rem;
+    }
+    
+    .footer p {
+        margin-bottom: 0.81rem;
+        font-size: 1rem;
+    }
+    
+    .footer a {
+        font-size: 1rem;
+        margin-bottom: 0.81rem;
+    }
+    
+    .linha-footer {
+        width: 0.125rem;
+        height: 11.5rem;
+        background: var(--corBotao);
+        margin: 3.75rem 1.25rem;
+    }
+    
+    .contatos-telefone {
+        margin-top: 4.81rem;
+    }
+    
+    .redes-sociais {
+        margin-top: 4.81rem;
+    }
+    
+    .redes-sociais a {
+        margin-right: 1rem;
+    }
+
+    .redes-sociais a img {
+        max-width: 2.5rem;
+        max-height: 2.5rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .container-footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 768px;
+    }
+    .logo-footer {
+        margin: 1.88rem 0 0 0;
+    }
+    
+    .logo-footer img {
+        max-width: 15.125rem;
+        max-height: 4.375rem;
+    }
+
+    .blocos-footer {
+        max-width: 768px;
+        margin: 0 auto;
+    }
+
+    .footer h3 {
+        font-size: 1rem;
+        margin-bottom: 1.44rem;
+    }
+    
+    .footer p {
+        font-size: 1rem;
+        margin-bottom: 0.81rem;
+    }
+    
+    .footer a {
+        margin-bottom: 0.81rem;
+    }
+    
+    .responsavel-tecnico {
+        margin-top: 2.94rem;
+    }
+    
+    .linha-footer {
+        margin: 1.88rem 1.25rem 3.06rem 1.25rem;
+    }
+    
+    .contatos-telefone {
+        margin-top: 2.94rem;
+    }
+    
+    .redes-sociais {
+        max-width: 10.25rem;
+        margin-top: 2.94rem;
+    }
+    
+    .redes-sociais a {
+        margin-right: 1.25rem;
+    }  
+}
+
+@media screen and (max-width: 767px) {
+
+    .container-footer {
+        display: flex;
+        flex-direction: column;
+        max-width: 767px;
+    }
+    
+    .blocos-footer {
+        display: flex;
+        flex-direction: column;
+        max-width: 767px;
+        text-align: center;
+    }
+    .logo-footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 5.62rem 0 0 0;
+    }
+
+    .logo-footer img {
+        width: 15.125rem;
+        height: 4.375rem;
+    }
+    
+    .footer h3 {
+        margin-bottom: 1.25rem;
+    }
+    
+    .footer p {
+        margin-bottom: 0.63rem;
+    }
+    
+    .footer a {
+        display: flex;
+        text-decoration: none;
+        color: #2d2d2d;
+        margin-bottom: 0.63rem;
+    }
+    
+    .responsavel-tecnico {
+        margin: 1.25rem 0;
+    }
+    
+    .linha-footer {
+        width: 11.50rem;
+        height: 0.125rem;
+        margin: 0 auto;
+    }
+    
+    .contatos-telefone {
+        margin: 1.25rem 0;
+    }
+    
+    .redes-sociais {
+        margin-top: 1.25rem;
+    }
+    
+    .redes-sociais a {
+        display: inline;
+        margin-right: 1.25rem;
+    }
+    
+    .copy {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 3.18rem;
+        padding-bottom: 0.63rem;
+    }
+}
