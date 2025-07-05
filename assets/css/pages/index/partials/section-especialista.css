@@ -138,7 +138,7 @@ section.especialista {
         text-align: center;   
         padding: 5.63rem 0 1.88rem 0;
         max-width: 767px;
-        width: 90%;
+        width: 95%;
     }
     
     .img-especialista img {
@@ -148,12 +148,12 @@ section.especialista {
     }
     
     .container-especialista h2{
+        margin: 0 auto;
         margin-top: 1.25rem;
         font-size: 1.5rem;
         margin-left: 0;
-        max-width: 25.4375rem;
+        max-width: 20rem;
         margin-bottom: 1.25rem;
-        
     }
     
     .linha-especialista {
