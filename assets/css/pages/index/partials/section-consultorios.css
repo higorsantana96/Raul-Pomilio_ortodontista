@@ -244,11 +244,16 @@
         margin-bottom: 1.88rem;
     }
     
-    .img-consultorio img {
+    .img-consultorio img {       
+        max-width: 98%;
         width: 21.4375rem;
         height: 14.0625rem;
     }
 
+    .img-consultorio {
+        margin: 0 auto;
+    }
+    
     .textos-consultorio h3 {
         max-width: 17rem;
         font-size: 1.125rem;
@@ -269,9 +274,12 @@
         text-align: center;
     }
     
+    }
+
+
     .informacoes-consultorio {
         margin: 0 auto;
-        width: 92%;
+        width: 90%;
         max-width: 27rem;
         margin-bottom: 1.25rem;
         font-size: 1rem;
@@ -288,6 +296,7 @@
     }
     
     .mapa-localizacao iframe {
+        max-width: 95%;
         margin: 0 auto;
         width: 22rem;
         height: 10rem;

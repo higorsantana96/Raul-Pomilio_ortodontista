@@ -142,6 +142,7 @@ section.especialista {
     }
     
     .img-especialista img {
+        width: 98%;
         max-width: 21.4375rem;
         max-height: 26rem;
     }
@@ -172,7 +173,8 @@ section.especialista {
     
     .btn-especialista { 
         margin-left: 0;
-        padding: 1.16rem 2.53rem;
+        padding: 1.16rem 2.66rem;
         margin-top: 0.92rem;
+        font-size: 1rem;
     }
 }

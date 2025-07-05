@@ -107,7 +107,8 @@ section.chamada {
     }
 
     .btn-chamada {
-        padding: 1.41rem 2.44rem;
-        margin-left: 0;   
+        padding: 1.41rem 2.66rem;
+        margin-left: 0;
+        font-size: 1rem;   
     }
 }

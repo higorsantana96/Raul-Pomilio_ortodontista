@@ -305,8 +305,15 @@ section.tratamentos {
     }
 
     .conteudo-tratamentos img {
-        width: 18.0625rem;
-        height: 12.23938rem;
+        max-width: 18.0625rem;
+        max-height: 12.23938rem;
+    }
+
+    .img-consultorio {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 98%;
     }
     
     .tratamento-ortodontia {

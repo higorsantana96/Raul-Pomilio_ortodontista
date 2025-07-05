@@ -337,4 +337,10 @@ section.pagina-inicial {
         max-width: 10.7rem;
         margin-right: 0.38rem;
     }
+
+    .btn-inicio {
+        padding: 1.41rem 2.66rem;
+        font-size: 1rem;
+        font-weight: 400;
+    }
 }
